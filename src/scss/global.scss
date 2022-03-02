@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+  }
+
+  body{
+    color: $text-color;
+      // font-family: 'Righteous', cursive;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .clear:after{
+    content: ' ';
+    display: table;
+    clear:both;
+    visibility: hidden;
+  }

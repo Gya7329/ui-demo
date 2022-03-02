@@ -1,0 +1,23 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-around;
+  height: 130px;
+  background-color: rgb(255, 178, 127);
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.navbar-wrapper li {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar-wrapper li:hover {
+  color: #ffffff;
+}
